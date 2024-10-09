@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #00ff00; /* Neon green border */
+    animation: fadeIn 2s ease-in forwards;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+nav ul li a:hover {
+    color: #00ff00;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+p {
+    font-size: 1.2em;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
